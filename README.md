@@ -1,3 +1,9 @@
+Modified version for technically challenged users ...
+
+Some controls and features hidden
+
+
+
 # AVRDUDESS - A GUI for AVRDUDE
 
 This is a GUI for AVRDUDE ([https://github.com/avrdudes/avrdude/](https://github.com/avrdudes/avrdude/)).
