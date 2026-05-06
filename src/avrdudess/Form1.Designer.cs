@@ -817,7 +817,7 @@
             // btnAbout
             // 
             this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAbout.Location = new System.Drawing.Point(411, 356);
+            this.btnAbout.Location = new System.Drawing.Point(412, 343);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(26, 23);
             this.btnAbout.TabIndex = 11;
@@ -995,7 +995,7 @@
             // btnOptions
             // 
             this.btnOptions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOptions.Location = new System.Drawing.Point(330, 356);
+            this.btnOptions.Location = new System.Drawing.Point(330, 343);
             this.btnOptions.Name = "btnOptions";
             this.btnOptions.Size = new System.Drawing.Size(75, 23);
             this.btnOptions.TabIndex = 10;
