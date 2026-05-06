@@ -483,9 +483,9 @@ namespace avrdudess
         {
             Refresh();
 
-            var checker = new UpdateCheck();
-            checker.OnUpdateCheck += Checker_OnUpdateCheck;
-            checker.Run();
+            //var checker = new UpdateCheck();
+            //checker.OnUpdateCheck += Checker_OnUpdateCheck;
+            //checker.Run();
 
             if (Portable.IsPortable)
                 Util.consoleWriteLine("_IN_PORTABLE_MODE", Color.HotPink);

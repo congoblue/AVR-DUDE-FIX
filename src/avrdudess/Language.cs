@@ -157,7 +157,7 @@ namespace avrdudess
                 var dbgTranslations = new Dictionary<string, string>();
                 var file = $"{l.Key}.xml";
 
-                Util.consoleWarning($"{file}: Checking...");
+                //Util.consoleWarning($"{file}: Checking...");
 
                 var langFile = Path.Combine(langsDir, file);
                 var langData = new XmlFile<TranslationData>(langFile).Read();

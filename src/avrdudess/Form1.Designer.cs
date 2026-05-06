@@ -179,9 +179,9 @@
             // btnProgram
             // 
             this.btnProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProgram.Location = new System.Drawing.Point(6, 356);
+            this.btnProgram.Location = new System.Drawing.Point(43, 299);
             this.btnProgram.Name = "btnProgram";
-            this.btnProgram.Size = new System.Drawing.Size(176, 23);
+            this.btnProgram.Size = new System.Drawing.Size(176, 67);
             this.btnProgram.TabIndex = 8;
             this.btnProgram.Text = "_DOPROGRAM";
             this.btnProgram.UseVisualStyleBackColor = true;
@@ -373,6 +373,7 @@
             this.gbEEPROMFile.TabIndex = 2;
             this.gbEEPROMFile.TabStop = false;
             this.gbEEPROMFile.Text = "_GRP_EEPROM";
+            this.gbEEPROMFile.Visible = false;
             // 
             // pbEEPROMUsage
             // 
@@ -757,12 +758,13 @@
             this.groupBox5.Controls.Add(this.cbDisableFlashErase);
             this.groupBox5.Controls.Add(this.cbEraseFlashEEPROM);
             this.groupBox5.Controls.Add(this.cbNoVerify);
-            this.groupBox5.Location = new System.Drawing.Point(6, 257);
+            this.groupBox5.Location = new System.Drawing.Point(219, 257);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(431, 93);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "_GRP_OPTIONS";
+            this.groupBox5.Visible = false;
             // 
             // label7
             // 
@@ -826,9 +828,9 @@
             // btnForceStop
             // 
             this.btnForceStop.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnForceStop.Location = new System.Drawing.Point(188, 356);
+            this.btnForceStop.Location = new System.Drawing.Point(228, 299);
             this.btnForceStop.Name = "btnForceStop";
-            this.btnForceStop.Size = new System.Drawing.Size(75, 23);
+            this.btnForceStop.Size = new System.Drawing.Size(75, 67);
             this.btnForceStop.TabIndex = 9;
             this.btnForceStop.Text = "_DOSTOP";
             this.btnForceStop.UseVisualStyleBackColor = true;
@@ -869,13 +871,13 @@
             // tssStatus
             // 
             this.tssStatus.Name = "tssStatus";
-            this.tssStatus.Size = new System.Drawing.Size(88, 17);
+            this.tssStatus.Size = new System.Drawing.Size(86, 17);
             this.tssStatus.Text = "_STATUSREADY";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(525, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(527, 17);
             this.toolStripStatusLabel1.Spring = true;
             // 
             // tssTooltip
