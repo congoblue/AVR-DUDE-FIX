@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ConfigData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ConfigData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <configVersion>1</configVersion>
   <updateCheck>0</updateCheck>
   <skipVersion>
@@ -18,9 +18,9 @@
   <hiddenMCUs />
   <hiddenProgrammers />
   <previousSettings>
-    <programmer />
-    <mcu />
-    <port />
+    <programmer>avrispmkII</programmer>
+    <mcu>m16</mcu>
+    <port>usb</port>
     <baud />
     <bitclock />
     <flashFile />
@@ -34,10 +34,10 @@
     <disableFlashErase>false</disableFlashErase>
     <eraseFlashAndEEPROM>false</eraseFlashAndEEPROM>
     <doNotWrite>false</doNotWrite>
-    <lfuse />
-    <hfuse />
+    <lfuse>0xBF</lfuse>
+    <hfuse>0xC9</hfuse>
     <efuse />
-    <setFuses>false</setFuses>
+    <setFuses>true</setFuses>
     <lockBits />
     <setLock>false</setLock>
     <additional />
